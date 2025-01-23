@@ -1,0 +1,78 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.12.35506.116
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TorneoTenis", "TorneoTenis\TorneoTenis.csproj", "{601106F7-EE2F-4241-BDED-3B85485D3012}"
+	ProjectSection(ProjectDependencies) = postProject
+		{2A91A190-F68B-4C9B-B47F-48CF5CB97E0C} = {2A91A190-F68B-4C9B-B47F-48CF5CB97E0C}
+		{73DB87F5-F9A2-4D1B-A2B3-2B2A9B7CD459} = {73DB87F5-F9A2-4D1B-A2B3-2B2A9B7CD459}
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TorneoTenis.Dominio", "TorneoTenis.Dominio\TorneoTenis.Dominio.csproj", "{C5D9DAC3-9748-4B70-A75D-4C70176DF222}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TorneoTenis.Aplicacion", "TorneoTenis.Aplicacion\TorneoTenis.Aplicacion.csproj", "{73DB87F5-F9A2-4D1B-A2B3-2B2A9B7CD459}"
+	ProjectSection(ProjectDependencies) = postProject
+		{C5D9DAC3-9748-4B70-A75D-4C70176DF222} = {C5D9DAC3-9748-4B70-A75D-4C70176DF222}
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Núcleo", "Núcleo", "{C331FFDB-1FB8-45EB-9F27-1FCE214429A5}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Infrastructura", "Infrastructura", "{2487520A-02A6-4EA3-89A6-0B91B9812AC3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TorneoTenis.AccesoDatos", "TorneoTenis.AccesoDatos\TorneoTenis.AccesoDatos.csproj", "{2A91A190-F68B-4C9B-B47F-48CF5CB97E0C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TorneoTenis.Dominio.Test", "TorneoTestUnitario\TorneoTenis.Dominio.Test.csproj", "{48EF4B23-7044-42DF-A70B-93893EAED42B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TorneoTenis.Service.Test", "TorneoTenis.Service.Test\TorneoTenis.Service.Test.csproj", "{F0620BBE-B7BD-4304-B337-170491BEEF7D}"
+	ProjectSection(ProjectDependencies) = postProject
+		{C5D9DAC3-9748-4B70-A75D-4C70176DF222} = {C5D9DAC3-9748-4B70-A75D-4C70176DF222}
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TorneoTenis.Servicios", "TorneoTenis.ServicioTorneo\TorneoTenis.Servicios.csproj", "{971402E2-48D9-4ADF-9794-FC6DB15B63F6}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{601106F7-EE2F-4241-BDED-3B85485D3012}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{601106F7-EE2F-4241-BDED-3B85485D3012}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{601106F7-EE2F-4241-BDED-3B85485D3012}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{601106F7-EE2F-4241-BDED-3B85485D3012}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C5D9DAC3-9748-4B70-A75D-4C70176DF222}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C5D9DAC3-9748-4B70-A75D-4C70176DF222}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C5D9DAC3-9748-4B70-A75D-4C70176DF222}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C5D9DAC3-9748-4B70-A75D-4C70176DF222}.Release|Any CPU.Build.0 = Release|Any CPU
+		{73DB87F5-F9A2-4D1B-A2B3-2B2A9B7CD459}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{73DB87F5-F9A2-4D1B-A2B3-2B2A9B7CD459}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{73DB87F5-F9A2-4D1B-A2B3-2B2A9B7CD459}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{73DB87F5-F9A2-4D1B-A2B3-2B2A9B7CD459}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2A91A190-F68B-4C9B-B47F-48CF5CB97E0C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2A91A190-F68B-4C9B-B47F-48CF5CB97E0C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2A91A190-F68B-4C9B-B47F-48CF5CB97E0C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2A91A190-F68B-4C9B-B47F-48CF5CB97E0C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{48EF4B23-7044-42DF-A70B-93893EAED42B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{48EF4B23-7044-42DF-A70B-93893EAED42B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{48EF4B23-7044-42DF-A70B-93893EAED42B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{48EF4B23-7044-42DF-A70B-93893EAED42B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F0620BBE-B7BD-4304-B337-170491BEEF7D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F0620BBE-B7BD-4304-B337-170491BEEF7D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F0620BBE-B7BD-4304-B337-170491BEEF7D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F0620BBE-B7BD-4304-B337-170491BEEF7D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{971402E2-48D9-4ADF-9794-FC6DB15B63F6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{971402E2-48D9-4ADF-9794-FC6DB15B63F6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{971402E2-48D9-4ADF-9794-FC6DB15B63F6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{971402E2-48D9-4ADF-9794-FC6DB15B63F6}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{C5D9DAC3-9748-4B70-A75D-4C70176DF222} = {C331FFDB-1FB8-45EB-9F27-1FCE214429A5}
+		{73DB87F5-F9A2-4D1B-A2B3-2B2A9B7CD459} = {C331FFDB-1FB8-45EB-9F27-1FCE214429A5}
+		{2A91A190-F68B-4C9B-B47F-48CF5CB97E0C} = {2487520A-02A6-4EA3-89A6-0B91B9812AC3}
+		{971402E2-48D9-4ADF-9794-FC6DB15B63F6} = {2487520A-02A6-4EA3-89A6-0B91B9812AC3}
+	EndGlobalSection
+EndGlobal
